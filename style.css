@@ -659,28 +659,23 @@ footer .arriba{
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
-    nav{
-        display: none;
+    .contenedor-header header ul{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        list-style: none;
+        padding-bottom: 10px;
     }
-    .nav-responsive{
-        display: block;
-    }
-    nav.responsive{
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252A2E;
-        width: 180px;
-    }
-    nav.responsive ul{
-        display: block !important;
-    }
-    nav.responsive ul li{
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
+    .contenedor-header header nav ul li a{
+        text-align: none;
+        color: #fff;
+        margin-bottom: 10px;
+        padding: 5px;
+        transition: .5s;
+        text-decoration: none;
     }
 }
+
 @media screen and (max-width:700px){
     .sobremi .fila{
         display: block;
