@@ -658,7 +658,7 @@ footer .arriba{
     font-size: 18px;
 }
 /* SECCION RESPONSIVE */
-@media screen and (max-width:980px){
+@media screen and (max-width:1005px){
     .contenedor-header header ul{
         display: flex;
         flex-direction: column;
@@ -668,7 +668,7 @@ footer .arriba{
     }
     .contenedor-header header nav ul li a{
         text-align: none;
-        color: #fff;
+        color: rgb(255, 255, 255);
         margin-bottom: 10px;
         padding: 5px;
         transition: .5s;
