@@ -1,0 +1,24 @@
+{
+  "name": "preentrega3demarchiramiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  Style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramedema/PreEntrega2-Demarchi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramedema/PreEntrega2-Demarchi/issues"
+  },
+  "homepage": "https://github.com/ramedema/PreEntrega2-Demarchi#readme",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}

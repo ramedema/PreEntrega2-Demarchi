@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+$mainfont: "Bebas Neue";
+$secondaryfont: "Montserrat";
+$thirdfont: "Work Sans";
+
+//tipo
+$textBold:600;
+$textRegular:400;
+$textThin:200;
+
+//tamaño
+$larger:48px;
+$medium:medium;
+$small:small;
+
+h2{
+    font-size: $larger;
+    font-family: $mainfont;
+}
+
+
